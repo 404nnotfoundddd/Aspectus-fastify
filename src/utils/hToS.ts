@@ -1,0 +1,1 @@
+export const hToS = (h: number) => 60 * 60 * h
