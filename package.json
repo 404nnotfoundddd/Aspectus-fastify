@@ -1,5 +1,5 @@
 {
-  "name": "aiprojectfastify",
+  "name": "aspectus-fastify",
   "module": "index.ts",
   "type": "module",
   "scripts": {
