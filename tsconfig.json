@@ -14,11 +14,13 @@
     "verbatimModuleSyntax": true,
     "noEmit": true,
     "paths": {
+      "@/server": ["./src/server.ts"],
       "@/env": ["./src/env/index.ts"],
       "@/zod/schema": ["./src/lib/zod/schema/index.ts"],
       "@/keydb": ["./src/db/keydb.ts"],
       "@/utils": ["./src/utils/index.ts"],
-      "@/helpers": ["./src/helpers/index.ts"]
+      "@/helpers": ["./src/helpers/index.ts"],
+      "@/graphql/*": ["./src/graphql/*"]
     },
 
     // Best practices
